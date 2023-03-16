@@ -7,33 +7,15 @@
 	>
 <channel>
 	<title>
-	Komentar untuk Budidaya Walet	</title>
+	Comments for Ternak Walet	</title>
 	<atom:link href="/comments/feed" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Wed, 01 Mar 2023 06:29:48 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 16 Mar 2023 02:59:10 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.1.1</generator>
-	<item>
-		<title>
-		Komentar di Jasa Konsultasi Bisnis Budidaya Walet di {kota} oleh Seorang Komentator WordPress		</title>
-		<link>/halo-dunia/.html#comment-1</link>
-
-		<dc:creator><![CDATA[Seorang Komentator WordPress]]></dc:creator>
-		<pubDate>Thu, 23 Feb 2023 03:13:37 +0000</pubDate>
-		<guid isPermaLink="false">/?p=1#comment-1</guid>
-
-					<description><![CDATA[Hai, ini merupakan sebuah komentar.
-Untuk mulai memoderasi, mengedit, dan menghapus komentar, silakan kunjungi layar Komentar di dasbor.
-Avatar komentator diambil dari &lt;a href=&quot;https://en.gravatar.com/&quot;&gt;Gravatar&lt;/a&gt;.]]></description>
-			<content:encoded><![CDATA[<p>Hai, ini merupakan sebuah komentar.<br />
-Untuk mulai memoderasi, mengedit, dan menghapus komentar, silakan kunjungi layar Komentar di dasbor.<br />
-Avatar komentator diambil dari <a href="https://en.gravatar.com/">Gravatar</a>.</p>
-]]></content:encoded>
-		
-			</item>
-	</channel>
+</channel>
 </rss>
