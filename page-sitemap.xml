@@ -1,101 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>/</loc>
+		<loc>https://ternakwalet.com//</loc>
 		<lastmod>2023-03-16T01:58:58+00:00</lastmod>
 		<image:image>
-			<image:loc>/wp-content/uploads/2020/08/avatar-female-1.jpg</image:loc>
+			<image:loc>https://ternakwalet.com//wp-content/uploads/2020/08/avatar-female-1.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2020/08/avatar-female-2.jpg</image:loc>
+			<image:loc>https://ternakwalet.com//wp-content/uploads/2020/08/avatar-female-2.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2020/08/avatar-female-3.jpg</image:loc>
+			<image:loc>https://ternakwalet.com//wp-content/uploads/2020/08/avatar-female-3.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/03/cropped-Hitam_dan_Oranye_Sederhana_Internet_Logo-removebg-preview-180x41.png</image:loc>
+			<image:loc>https://ternakwalet.com//wp-content/uploads/2023/03/cropped-Hitam_dan_Oranye_Sederhana_Internet_Logo-removebg-preview-180x41.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>/layanan-kami</loc>
+		<loc>https://ternakwalet.com//layanan-kami</loc>
 		<lastmod>2023-03-16T02:59:10+00:00</lastmod>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/03/y12.png</image:loc>
+			<image:loc>https://ternakwalet.com//wp-content/uploads/2023/03/y12.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/03/y10.png</image:loc>
+			<image:loc>https://ternakwalet.com//wp-content/uploads/2023/03/y10.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/03/y11.png</image:loc>
+			<image:loc>https://ternakwalet.com//wp-content/uploads/2023/03/y11.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/03/cropped-Hitam_dan_Oranye_Sederhana_Internet_Logo-removebg-preview-180x41.png</image:loc>
+			<image:loc>https://ternakwalet.com//wp-content/uploads/2023/03/cropped-Hitam_dan_Oranye_Sederhana_Internet_Logo-removebg-preview-180x41.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>/blog-artikel</loc>
+		<loc>https://ternakwalet.com//blog-artikel</loc>
 		<lastmod>2023-03-16T02:31:12+00:00</lastmod>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/03/cropped-Hitam_dan_Oranye_Sederhana_Internet_Logo-removebg-preview-180x41.png</image:loc>
+			<image:loc>https://ternakwalet.com//wp-content/uploads/2023/03/cropped-Hitam_dan_Oranye_Sederhana_Internet_Logo-removebg-preview-180x41.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>/kontak-kami</loc>
+		<loc>https://ternakwalet.com//kontak-kami</loc>
 		<lastmod>2023-03-16T02:14:16+00:00</lastmod>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/03/cropped-Hitam_dan_Oranye_Sederhana_Internet_Logo-removebg-preview-180x41.png</image:loc>
+			<image:loc>https://ternakwalet.com//wp-content/uploads/2023/03/cropped-Hitam_dan_Oranye_Sederhana_Internet_Logo-removebg-preview-180x41.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>/galeri-kami</loc>
+		<loc>https://ternakwalet.com//galeri-kami</loc>
 		<lastmod>2023-03-16T02:10:11+00:00</lastmod>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/03/cropped-Hitam_dan_Oranye_Sederhana_Internet_Logo-removebg-preview-180x41.png</image:loc>
+			<image:loc>https://ternakwalet.com//wp-content/uploads/2023/03/cropped-Hitam_dan_Oranye_Sederhana_Internet_Logo-removebg-preview-180x41.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>/proses-budidaya</loc>
+		<loc>https://ternakwalet.com//proses-budidaya</loc>
 		<lastmod>2023-03-16T02:03:13+00:00</lastmod>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/03/cropped-Hitam_dan_Oranye_Sederhana_Internet_Logo-removebg-preview-180x41.png</image:loc>
+			<image:loc>https://ternakwalet.com//wp-content/uploads/2023/03/cropped-Hitam_dan_Oranye_Sederhana_Internet_Logo-removebg-preview-180x41.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>/jenis-walet</loc>
+		<loc>https://ternakwalet.com//jenis-walet</loc>
 		<lastmod>2023-03-16T02:02:10+00:00</lastmod>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/03/cropped-Hitam_dan_Oranye_Sederhana_Internet_Logo-removebg-preview-180x41.png</image:loc>
+			<image:loc>https://ternakwalet.com//wp-content/uploads/2023/03/cropped-Hitam_dan_Oranye_Sederhana_Internet_Logo-removebg-preview-180x41.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>/profil-kami</loc>
+		<loc>https://ternakwalet.com//profil-kami</loc>
 		<lastmod>2023-03-16T02:01:04+00:00</lastmod>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/03/armond.png</image:loc>
+			<image:loc>https://ternakwalet.com//wp-content/uploads/2023/03/armond.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/03/bastil.png</image:loc>
+			<image:loc>https://ternakwalet.com//wp-content/uploads/2023/03/bastil.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/03/bolier.png</image:loc>
+			<image:loc>https://ternakwalet.com//wp-content/uploads/2023/03/bolier.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/03/digit.png</image:loc>
+			<image:loc>https://ternakwalet.com//wp-content/uploads/2023/03/digit.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/03/darkside.png</image:loc>
+			<image:loc>https://ternakwalet.com//wp-content/uploads/2023/03/darkside.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/03/fifthflour.png</image:loc>
+			<image:loc>https://ternakwalet.com//wp-content/uploads/2023/03/fifthflour.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/03/Modal...png</image:loc>
+			<image:loc>https://ternakwalet.com//wp-content/uploads/2023/03/Modal...png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/03/madrin.png</image:loc>
+			<image:loc>https://ternakwalet.com//wp-content/uploads/2023/03/madrin.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/03/cropped-Hitam_dan_Oranye_Sederhana_Internet_Logo-removebg-preview-180x41.png</image:loc>
+			<image:loc>https://ternakwalet.com//wp-content/uploads/2023/03/cropped-Hitam_dan_Oranye_Sederhana_Internet_Logo-removebg-preview-180x41.png</image:loc>
 		</image:image>
 	</url>
 </urlset>
