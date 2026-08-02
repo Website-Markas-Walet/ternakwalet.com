@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!--
+  PREVIEW — hasil render cms/layout-template.html dengan konten contoh.
+  Tujuan: memperlihatkan "chrome bersih" (header/menu/footer) secara visual.
+  Analytics (GTM/TikTok) sengaja DIHILANGKAN di preview agar tidak memicu event.
+  Template asli yang dipakai CMS: cms/layout-template.html.
+-->
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Preview Chrome Bersih — Ternak Walet</title>
+  <meta name="description" content="Contoh render layout template ternakwalet.com untuk CMS terpusat.">
+  <link rel="icon" href="/wp-content/uploads/2023/03/TERNAK%20WALET%20FAVICON-min.png" sizes="32x32">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--brand:#FFB100;--brand-2:#F9C349;--ink:#1E1810;--muted:#62615C;--bg:#F8F7F3;--white:#fff;--wrap:1200px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}
+    body{margin:0;font-family:"Montserrat",system-ui,sans-serif;color:var(--ink);background:var(--white);line-height:1.6;-webkit-font-smoothing:antialiased}
+    h1,h2,h3,h4{font-family:"Poppins",system-ui,sans-serif;line-height:1.25;margin:0 0 .5em}
+    a{color:inherit;text-decoration:none}img{max-width:100%;height:auto;display:block}
+    .wrap{max-width:var(--wrap);margin-inline:auto;padding-inline:20px}
+    .site-header{position:sticky;top:0;z-index:50;background:var(--white);border-bottom:1px solid #eee}
+    .site-header .wrap{display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:70px}
+    .site-logo img{max-height:46px;width:auto}
+    .nav-toggle{display:none;background:none;border:0;cursor:pointer;padding:8px;font-size:24px;color:var(--ink)}
+    .main-nav ul{display:flex;gap:26px;list-style:none;margin:0;padding:0;flex-wrap:wrap}
+    .main-nav a{font-weight:500;font-size:15px;padding:6px 0;position:relative;transition:color .15s}
+    .main-nav a:hover,.main-nav a[aria-current="page"]{color:var(--brand)}
+    .main-nav a::after{content:"";position:absolute;left:0;bottom:0;height:2px;width:0;background:var(--brand);transition:width .2s}
+    .main-nav a:hover::after,.main-nav a[aria-current="page"]::after{width:100%}
+    @media (max-width:921px){
+      .nav-toggle{display:block}
+      .main-nav{position:absolute;left:0;right:0;top:100%;background:var(--white);border-bottom:1px solid #eee;max-height:0;overflow:hidden;transition:max-height .25s ease}
+      .main-nav.open{max-height:70vh}
+      .main-nav ul{flex-direction:column;gap:0;padding:8px 20px}
+      .main-nav li{border-bottom:1px solid #f0f0f0}
+      .main-nav a{display:block;padding:12px 0}
+    }
+    .site-main{min-height:50vh;padding-block:32px}
+    /* --- demo content styling (bukan bagian chrome) --- */
+    .hero{background:linear-gradient(135deg,var(--bg),#fff);border:1px solid #eee;border-radius:16px;padding:48px 32px;text-align:center;margin-bottom:32px}
+    .hero h1{font-size:clamp(28px,4vw,44px)}
+    .hero p{max-width:640px;margin:0 auto 20px;color:var(--muted);font-size:18px}
+    .btn{display:inline-block;background:var(--brand);color:var(--ink);font-weight:600;padding:12px 24px;border-radius:10px}
+    .btn:hover{background:var(--brand-2)}
+    .demo-note{background:#FFF7E6;border:1px dashed var(--brand);border-radius:10px;padding:14px 18px;font-size:14px;color:#7a5a00;margin-bottom:28px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+    .card{border:1px solid #eee;border-radius:12px;overflow:hidden;background:#fff}
+    .card .body{padding:18px}
+    .card h3{font-size:17px}
+    .card p{color:var(--muted);font-size:14px;margin:0}
+    @media (max-width:921px){.grid{grid-template-columns:1fr}}
+    .site-footer{background:var(--ink);color:#d9d7d2;margin-top:48px}
+    .site-footer .wrap{display:grid;grid-template-columns:2fr 1fr 1fr;gap:32px;padding-block:56px}
+    .site-footer h4{color:var(--white)}.site-footer a:hover{color:var(--brand)}
+    .footer-brand img{max-height:52px;margin-bottom:14px;filter:brightness(0) invert(1)}
+    .footer-contact a{display:inline-flex;align-items:center;gap:8px;margin:4px 0}
+    .footer-cta{display:inline-block;margin-top:8px;background:var(--brand);color:var(--ink);font-weight:600;padding:10px 18px;border-radius:8px}
+    .footer-cta:hover{background:var(--brand-2);color:var(--ink)}
+    .site-footer nav ul{list-style:none;margin:0;padding:0}.site-footer nav li{margin:6px 0}
+    .footer-bottom{border-top:1px solid rgba(255,255,255,.12)}
+    .footer-bottom .wrap{display:block;text-align:center;padding-block:18px;font-size:14px;color:var(--muted)}
+    @media (max-width:921px){.site-footer .wrap{grid-template-columns:1fr;gap:28px;padding-block:40px}}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="site-logo" href="/" aria-label="Ternak Walet — Beranda">
+        <img src="/wp-content/uploads/2023/03/cropped-Hitam_dan_Oranye_Sederhana_Internet_Logo-removebg-preview.png" alt="Ternak Walet" width="200" height="46">
+      </a>
+      <button class="nav-toggle" aria-label="Buka menu" aria-expanded="false" aria-controls="primary-menu" onclick="var n=document.getElementById('primary-menu');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o)">&#9776;</button>
+      <nav class="main-nav" id="primary-menu" aria-label="Menu utama">
+        <ul>
+          <li><a href="/" aria-current="page">Beranda</a></li>
+          <li><a href="/profil-kami">Profil</a></li>
+          <li><a href="/jenis-walet">Jenis Burung Walet</a></li>
+          <li><a href="/proses-budidaya">Proses Budidaya</a></li>
+          <li><a href="/blog-artikel">Blog Artikel</a></li>
+          <li><a href="/layanan-kami">Layanan</a></li>
+          <li><a href="/galeri-kami">Galeri</a></li>
+          <li><a href="/kontak-kami">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <div class="wrap">
+      <p class="demo-note">Ini halaman <strong>preview</strong> — hasil render <code>cms/layout-template.html</code> dengan konten contoh. Bagian header, menu, dan footer inilah "chrome bersih" (9&nbsp;KB, pengganti export Elementor ~113&nbsp;KB). Isi di antara header &amp; footer adalah slot <code>{{CONTENT}}</code>.</p>
+
+      <section class="hero">
+        <h1>Budidaya Sarang Walet, Lebih Terarah</h1>
+        <p>Konsultasi, edukasi, dan pendampingan membangun gedung walet yang produktif — bagian dari jaringan Markas Walet.</p>
+        <a class="btn" href="https://wa.me/6287725260196" rel="noopener">Konsultasi Gratis via WhatsApp</a>
+      </section>
+
+      <div class="grid">
+        <article class="card">
+          <div class="body">
+            <h3>Contoh Artikel</h3>
+            <p>Slot konten menerima badan artikel apa pun dari CMS — teks, gambar, heading — tanpa mengubah chrome.</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="body">
+            <h3>Contoh Halaman Kota</h3>
+            <p>Template + dataset (kabupaten, provinsi) merender 489 landing tanpa halaman manual.</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="body">
+            <h3>Contoh Desain Gedung</h3>
+            <p>Ukuran 4×4 hingga 14×14 memakai chrome yang sama persis.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-brand">
+        <img src="/wp-content/uploads/2023/03/cropped-Hitam_dan_Oranye_Sederhana_Internet_Logo-removebg-preview.png" alt="Ternak Walet" width="200" height="52">
+        <p>Konsultasi &amp; edukasi budidaya sarang burung walet — bagian dari jaringan Markas Walet.</p>
+        <a class="footer-cta" href="https://wa.me/6287725260196" rel="noopener">Konsultasi via WhatsApp</a>
+      </div>
+      <nav aria-label="Menu footer">
+        <h4>Navigasi</h4>
+        <ul>
+          <li><a href="/profil-kami">Profil</a></li>
+          <li><a href="/jenis-walet">Jenis Burung Walet</a></li>
+          <li><a href="/proses-budidaya">Proses Budidaya</a></li>
+          <li><a href="/blog-artikel">Blog Artikel</a></li>
+          <li><a href="/layanan-kami">Layanan</a></li>
+          <li><a href="/kontak-kami">Kontak</a></li>
+        </ul>
+      </nav>
+      <div class="footer-contact">
+        <h4>Kontak</h4>
+        <a href="https://wa.me/6287725260196" rel="noopener">&#128241; WhatsApp: 0877-2526-0196</a>
+        <a href="mailto:sales@markaswalet.com">&#9993; sales@markaswalet.com</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="wrap">&copy; 2026 Ternak Walet. Seluruh hak cipta dilindungi.</div>
+    </div>
+  </footer>
+</body>
+</html>
